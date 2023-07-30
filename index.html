@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="Logo Alura-Latam" alt="Logo de Alura-Oracle">               
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Por favor ingrese su texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo es permitidos letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>    
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder=" Mensaje no encontrado  Introduzca texto para encriptar o desencriptar"></textarea></section>
+            <div class="botones">
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<footer>    
+    <div class="copyright"> by AluraLatam-Oracle | Enercido Oganse Atis 2023 </div>
+    <a href="https://www.linkedin.com/in/enercido-oganse-atis-b97b4a31"> <img width="40px" height= "40px" src="imagenes/linkein.png" alt="Mi perfil linkedin"></a>
+    <a href="https://github.com/ocanse"> <img width="50px" height= "50px" src="imagenes/github.png" alt="Oracle Next Education G5"></a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
